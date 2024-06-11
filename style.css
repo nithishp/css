@@ -1,0 +1,53 @@
+header img {
+    height: 80px;
+}
+body{
+    height: 125vh;
+    background-image: url('./bg.jpg');
+    background-size: cover;
+    font-family: sans-serif ;
+}
+header{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+header * {
+    display: inline;
+}
+header li {
+    margin: 20px;
+}
+header li a {
+    text-decoration: none;
+    color: black;
+}
+.list-item:hover {
+    font-weight: bold;
+}
+.div-para {
+    background-color: white;
+    margin-top: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.div-para p {
+    justify-content: center;
+}
+.outer-div{
+    display: flex;
+}
+.div-para:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
